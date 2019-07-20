@@ -1,6 +1,6 @@
 # SMS4 NPM Module
 
-Simple and straightforward way to send text messages. Read more on our website: [https://sms4.dev]([SMS4dev](https://sms4.dev))
+Simple and straightforward way to send text messages. Read more on our website: [https://sms4.dev](https://sms4.dev)
 
 ## Installation
 
@@ -58,7 +58,7 @@ The `send` function returns a promise that resolves to the following object:
 
 In case if messages sent successfully:
 
-```json
+```javascript
 {
   success: true,
   total: 0.014, // Total for all messages
@@ -77,7 +77,7 @@ In case if messages sent successfully:
 ```
 
 And if delivery is failed:
-```json
+```javascript
 {
   success: false,
   error: {
